@@ -104,7 +104,7 @@ var NewsPage = /** @class */ (function () {
     }
     NewsPage.prototype.getData = function () {
         var _this = this;
-        var url = 'http://www.metallum.com.br/23cbecimat/app-lista/avisos.php';
+        var url = 'https://www.metallum.com.br/23cbecimat/app-lista/avisos.php';
         var data = this.http.get(url);
         data.subscribe(function (result) {
             //console.log(result);
